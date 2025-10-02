@@ -5,7 +5,7 @@ The application is built with Python, using a fine-tuned Transformer model for s
 
 (Feel free to replace the placeholder above with a real screenshot of your application!)
 
-#✨ Features
+#✨ FEATURES
 Interactive Web Interface: A user-friendly web app built with Streamlit to analyze review text in real-time.
 
 Accurate Sentiment Prediction: Utilizes a fine-tuned Transformer model to classify text into Positive, Negative, and Neutral categories.

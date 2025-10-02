@@ -3,9 +3,8 @@ This project is an interactive web application that performs sentiment analysis 
 
 The application is built with Python, using a fine-tuned Transformer model for sequence classification and Streamlit for the user interface.
 
-(Feel free to replace the placeholder above with a real screenshot of your application!)
 
-#✨ FEATURES
+# ✨ FEATURES
 Interactive Web Interface: A user-friendly web app built with Streamlit to analyze review text in real-time.
 
 Accurate Sentiment Prediction: Utilizes a fine-tuned Transformer model to classify text into Positive, Negative, and Neutral categories.
@@ -14,7 +13,7 @@ Explainable AI (XAI): Integrates SHAP to generate waterfall plots, visualizing w
 
 Easy to Set Up: A requirements.txt file is included for a straightforward setup process.
 
-#🚀 How It Works
+# 🚀 How It Works
 The project follows a standard machine learning pipeline:
 
 Data Preparation: The sentiment analysis model was trained on a dataset of product reviews (found in s24_reviews_labeled_vader.csv and CLEANED_REVIEWS_NO_DUPLICATES.csv).
@@ -27,7 +26,7 @@ Web Application: When a user enters a review, the app's backend performs inferen
 
 Visualization: The predicted sentiment is displayed, and SHAP generates visualizations to explain the reasoning behind the prediction.
 
-#🛠️ Installation & Setup
+# 🛠️ Installation & Setup
 Follow these steps to set up and run the project on your local machine.
 
 Prerequisites
@@ -58,7 +57,7 @@ pip install -r requirements.txt
 4. Train the Model (or Use a Pre-trained One)
 The core model files are not included in this repository. You must generate them by running the Jupyter Notebook.
 
-#Launch Jupyter Notebook:
+# Launch Jupyter Notebook:
 
 jupyter notebook
 
@@ -66,7 +65,7 @@ Open and run all the cells in ReviewSentimentalAnalysis.ipynb. This will train t
 
 Important: Make sure the notebook saves the model and the label encoder to a known location. You may need to update the paths in app.py to point to where these files are saved. For simplicity, you can create a model directory in the root of the project and save the assets there.
 
-#▶️ How to Run the Application
+# ▶️ How to Run the Application
 Once the setup is complete and the model files are in place, you can start the Streamlit web application.
 
 Run the app.py file using Streamlit:
@@ -77,7 +76,7 @@ Your web browser should automatically open a new tab with the application runnin
 
 Enter a product review into the text box and click the "Analyze Sentiment" button to see the prediction and its explanation.
 
-#📂 File Structure
+# 📂 File Structure
 Here is an overview of the key files in this project:
 
 app.py: The main Python script for the Streamlit web application.
@@ -92,7 +91,7 @@ label_encoder.pkl: A saved scikit-learn LabelEncoder object used to map sentimen
 
 *.csv: CSV files containing the datasets used for training and testing the model.
 
-#🔧 Technologies Used
+# 🔧 Technologies Used
 Programming Language: Python
 
 Web Framework: Streamlit

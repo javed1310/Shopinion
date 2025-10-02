@@ -35,7 +35,7 @@ Python 3.8 or higher
 pip package manager
 
 1. Clone the Repository
-git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+git clone [https://github.com/javed1310/Shopinion.git](https://github.com/javed1310/Shopinion.git)
 cd your-repository-name
 
 2. Create a Virtual Environment (Recommended)
